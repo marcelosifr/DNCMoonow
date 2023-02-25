@@ -86,8 +86,9 @@ button{
     margin-top: 10px;
     border: none;
     text-align: center;
-    
+    cursor: pointer;
 }
+
 
 .b1{
     background: #7834F3;
