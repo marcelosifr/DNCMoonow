@@ -66,10 +66,9 @@ h1{
 input{
     width: 408.2px;
     height: 61.23px;
-    left: 41px;
-    top: 295px;
+   
     
-    color: #ffffff;
+    color: #FFFFFF;
     font-family: 'Lexend Deca';
     font-style: normal;
     font-weight: 400;
@@ -79,9 +78,20 @@ input{
 
     background: #9F7FDB;
     border-radius: 10px;
-
-    
 }
+
+    input::-webkit-input-placeholder{
+        color: #ffffff;
+    }
+
+    input:-moz-placeholder{
+        color: #ffffff;
+    }
+
+    input:-ms-input-placeholder{
+        color: #ffffff;
+    }
+
 button{
     margin-top: 10px;
     border: none;
