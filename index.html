@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOONOW</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.svg">
+        <div id="header-menu">
+            <h3 href="">Quem somos</h3>
+            <h3 href="">Nosso propósito</h3>
+            <h3 href="">Suporte</h3>
+        </div>
+    </header>
+<div id="menu-central">
+    <div>
+        <h1>
+            INSCREVA-SE E <br>
+           VIAJE PARA A LUA<br>
+             GRATUITAMENTE
+        </h1>
+        <div class="inputs">
+            <input class="campo-obrigatorio" type="text" placeholder="Nome completo">
+            <div class="error"></div>
+            <input class="campo-obrigatorio" type="email" placeholder="E-mail">
+            <div class="error"></div>
+        </div>
+        <div id="botoes">
+            <button type="submit" class="b1" onclick="return validacao()">
+                Quero ir pra lua!
+            </button>
+            <button type="button" class="b2">
+                Mais informações
+            </button>
+        </div>
+        <div class="error">
+
+        </div>
+    </div>
+    <div>
+        <img id="img-foguete" src="homemfoguete.svg">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

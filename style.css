@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Lexend+Deca&display=swap');
+
+body {
+font-family: 'Baloo Bhaina 2';
+background: linear-gradient(136.31deg, #0C0F07 14.16%, #1F102B 53.39%, #23193E 82.63%);
+}
+
+header{
+    color: #E0DAED;
+    display: flex;
+    flex-direction: row;
+}
+
+#header-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-left: 560px;
+    
+
+}
+
+
+header img{
+    width: 160px;
+    height: 104px;
+    margin-left: 63px;
+
+}
+
+h3{
+    text-transform: uppercase;
+    margin-right: 32px;
+    
+}
+
+#menu-central{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: 115px;
+    margin-top: 0px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1{
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 50px;
+    color: rgba(159, 127, 219, 0.8);
+    
+
+}
+
+input{
+    width: 408.2px;
+    height: 61.23px;
+    left: 41px;
+    top: 295px;
+    
+    color: #ffffff;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 0px 0px 35px;
+
+    background: #9F7FDB;
+    border-radius: 10px;
+
+    
+}
+button{
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    
+}
+
+.b1{
+    background: #7834F3;
+    border-radius: 8px;
+
+    color: #E9E1FD;
+
+    width: 249px;
+    height: 84px;
+
+    font-family: 'Baloo Bhaina 2';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    margin-right: 54px;
+    
+}
+
+.b2{
+    background: #9F7FDB;
+    border-radius: 8px;
+    color: #E9E1FD;
+
+    width: 265px;
+    height: 84px;
+
+    font-family: 'Baloo Bhaina 2';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    margin-right: -54px;
+
+}
+
+#img-foguete{
+    width: 584px;
+    height: 414px;
+    margin-left: 60px;
+    margin-top: 200px;
+}
+
+.error{
+    margin-bottom: 43px;
+}
